@@ -24,7 +24,7 @@ Ky manual është hartuar nga kodi i versionit 0.8.4. Pjesët e shënuara me ⚠
 ### 2.1 Kërkesat
 - Botble CMS ≥ 7.5.2, PHP 8.4 me `bcmath`, `zip` (`ZipArchive`), `mbstring`, `intl`; MySQL.
 - Cron i Laravel: `* * * * * php artisan schedule:run` (pa të nuk punon importi i kurseve, verifikimi i natës dhe kujtesat).
-- Rruga e prodhimit: `/var/www/html/MartFury`.
+- Rruga e prodhimit: `pyet per ndihme`.
 
 ### 2.2 Hapat
 1. Kopjo `emiron-fx-0.8.4.zip` te serveri dhe zhdukose në një dosje të përkohshme.

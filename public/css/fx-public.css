@@ -1,0 +1,37 @@
+/* Emiron FX — tabela publike e kurseve. Ngjyrat marrin token-et e temës
+   RadiusISP (--rz-*) kur ekzistojnë, përndryshe vlera neutrale. */
+.fx-section{padding:48px 0;}
+.fx-wrap{max-width:1180px; margin:0 auto; padding:0 24px;}
+.fx-head{max-width:640px; margin-bottom:28px;}
+.fx-head h2{font-size:clamp(24px,3vw,34px); margin:0 0 8px; color:var(--rz-paper,#111);}
+.fx-head p{margin:0; color:var(--rz-paper-dim,#555);}
+.fx-grid{display:grid; grid-template-columns:1.4fr 1fr; gap:20px; align-items:start;}
+.fx-grid--single{grid-template-columns:1fr;}
+@media(max-width:860px){.fx-grid{grid-template-columns:1fr;}}
+.fx-board,.fx-converter{background:var(--rz-panel,#fff); border:1px solid var(--rz-line,#e3e6ec); border-radius:14px; padding:20px;}
+.fx-board table{width:100%; border-collapse:collapse;}
+.fx-board th{font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.05em; color:var(--rz-mist,#6b7280); text-align:left; padding:0 8px 10px;}
+.fx-board td{padding:12px 8px; border-top:1px solid var(--rz-line,#e3e6ec); color:var(--rz-paper,#111);}
+.fx-num{text-align:right !important; font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:16px; white-space:nowrap;}
+.fx-official{color:var(--rz-mist,#6b7280) !important; font-size:14px;}
+.fx-code{font-weight:700; font-size:16px;}
+.fx-unit{font-size:12px; color:var(--rz-mist,#6b7280); margin-left:4px;}
+.fx-name{display:block; font-size:12.5px; color:var(--rz-mist,#6b7280);}
+.fx-meta{font-size:12px; color:var(--rz-mist,#6b7280); margin:12px 0 0;}
+.fx-converter h3{font-size:16px; margin:0 0 14px; color:var(--rz-paper,#111);}
+.fx-field{display:block; margin-bottom:10px;}
+.fx-field > span:first-child{display:block; font-size:12.5px; color:var(--rz-mist,#6b7280); margin-bottom:4px;}
+.fx-inline{display:flex; gap:8px;}
+.fx-inline input,.fx-inline output{flex:1; min-width:0; font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:20px; padding:10px 12px; border:1px solid var(--rz-line,#e3e6ec); border-radius:10px; background:var(--rz-ink,#fafafa); color:var(--rz-paper,#111);}
+.fx-inline output{display:flex; align-items:center;}
+.fx-inline select{width:92px; padding:10px; border:1px solid var(--rz-line,#e3e6ec); border-radius:10px; background:var(--rz-panel-raised,#f2f4f7); color:var(--rz-paper,#111); font-weight:600;}
+.fx-swap{display:block; margin:0 auto 10px; width:36px; height:36px; border-radius:50%; border:1px solid var(--rz-line,#e3e6ec); background:none; color:var(--rz-signal,#0ea989); font-size:18px; cursor:pointer;}
+.fx-used{font-size:12px; color:var(--rz-mist,#6b7280); margin:4px 0 0; min-height:1.2em;}
+.fx-disclaimer{font-size:12px; color:var(--rz-mist,#6b7280); margin:10px 0 0; padding-top:10px; border-top:1px solid var(--rz-line,#e3e6ec);}
+.fx-against{font-size:14px; color:var(--rz-paper-dim,#555); margin:0 0 14px; padding:10px 14px; border-left:3px solid var(--rz-signal,#0ea989); background:var(--rz-panel,#fff); border-radius:0 10px 10px 0;}
+.fx-board th small{display:block; font-size:11px; font-weight:400; text-transform:none; letter-spacing:0;}
+.fx-cur{font-size:12px; color:var(--rz-mist,#6b7280); font-family:'Inter',sans-serif;}
+.fx-trend{display:inline-block; font-size:11px; margin-right:6px; vertical-align:1px;}
+.fx-trend--up{color:#16a34a;}
+.fx-trend--down{color:#dc2626;}
+.fx-sr{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap;}

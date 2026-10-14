@@ -1,0 +1,11 @@
+{
+    "id": "botble/emiron-fx",
+    "name": "Emiron FX — Këmbimi valutor",
+    "namespace": "Botble\\EmironFx\\",
+    "provider": "Botble\\EmironFx\\Providers\\EmironFxServiceProvider",
+    "author": "Klodi",
+    "url": "",
+    "version": "0.8.4",
+    "description": "Kurset e blerjes/shitjes, kursi zyrtar i BSH-së dhe tabela publike e kurseve për zyrën e këmbimit valutor.",
+    "minimum_core_version": "7.5.2"
+}
